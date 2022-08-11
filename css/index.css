@@ -27,18 +27,42 @@ body {
 }
 .main .navigation {
   width: 100%;
-  height: 5vh;
-  line-height: 5vh;
+  height: 10vh;
   padding: 0px 30px;
-  background-color: black;
   color: white;
 }
 .main .navigation .left-nav {
+  height: 100%;
+  line-height: 100%;
   float: left;
+}
+.main .navigation .left-nav a {
+  text-decoration: none;
+  color: black;
+}
+.main .navigation .left-nav a:hover svg {
+  transform: scale(1.2);
+}
+.main .navigation .left-nav svg {
+  transition: 0.2s;
+  height: 100%;
   vertical-align: middle;
 }
 .main .navigation .right-nav {
+  height: 100%;
+  line-height: 100%;
   float: right;
+}
+.main .navigation .right-nav a {
+  text-decoration: none;
+  color: black;
+}
+.main .navigation .right-nav a:hover svg {
+  transform: scale(1.2);
+}
+.main .navigation .right-nav svg {
+  transition: 0.2s;
+  height: 100%;
   vertical-align: middle;
 }
 .main .content {
@@ -57,17 +81,54 @@ body {
 }
 .main .footer {
   width: 100%;
-  height: 5vh;
-  line-height: 5vh;
+  height: 10vh;
   padding: 0px 30px;
-  background-color: black;
   color: white;
 }
 .main .footer .left-footer {
+  height: 100%;
+  line-height: 100%;
   float: left;
+}
+.main .footer .left-footer a {
+  text-decoration: none;
+  color: black;
+  margin: 0px 10px;
+}
+.main .footer .left-footer a:hover svg {
+  transform: scale(1.2);
+}
+.main .footer .left-footer svg {
+  transition: 0.2s;
+  height: 100%;
   vertical-align: middle;
 }
 .main .footer .right-footer {
+  height: 100%;
+  line-height: 100%;
   float: right;
+}
+.main .footer .right-footer .connect-btn-div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.main .footer .right-footer .connect-btn-div .connect-btn {
+  padding: 0px 20px;
+  letter-spacing: 2px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  color: black;
+  vertical-align: bottom;
+}
+.main .footer .right-footer .connect-btn-div .connect-btn svg {
+  height: 100%;
+  vertical-align: middle;
+}
+.main .footer .right-footer .connect-btn-div .connect-btn .text-connect {
+  height: 100%;
   vertical-align: middle;
 }/*# sourceMappingURL=index.css.map */
