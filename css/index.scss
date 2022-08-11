@@ -9,6 +9,7 @@ body{
     height: 100vh;
     margin: 0;
     background-color: #d7d7d7;
+    overflow: hidden;
 }
 
 .main-container .container-section{
@@ -34,7 +35,7 @@ body{
                 text-decoration: none;
                 color: black;
                 &:hover svg{
-                    transform: scale(1.2);
+                    transform: scale(1.1);
                 }
             }
             svg{
@@ -51,7 +52,7 @@ body{
                 text-decoration: none;
                 color: black;
                 &:hover svg{
-                    transform: scale(1.2);
+                    transform: scale(1.1);
                 }
             }
             svg{
@@ -83,20 +84,20 @@ body{
         color: white;
         .left-footer{
             height: 100%;
-            line-height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
             float: left;
             a{
                 text-decoration: none;
                 color: black;
                 margin: 0px 10px;
                 &:hover svg{
-                    transform: scale(1.2);
+                    transform: scale(1.1);
                 }
-            }
-            svg{
-                transition: .2s;
-                height: 100%;
-                vertical-align: middle;
+                svg{
+                    transition: .2s;
+                }
             }
         }
         .right-footer{

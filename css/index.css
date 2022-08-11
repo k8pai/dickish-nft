@@ -9,6 +9,7 @@ body {
   height: 100vh;
   margin: 0;
   background-color: #d7d7d7;
+  overflow: hidden;
 }
 
 .main-container .container-section {
@@ -41,7 +42,7 @@ body {
   color: black;
 }
 .main .navigation .left-nav a:hover svg {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .main .navigation .left-nav svg {
   transition: 0.2s;
@@ -58,7 +59,7 @@ body {
   color: black;
 }
 .main .navigation .right-nav a:hover svg {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .main .navigation .right-nav svg {
   transition: 0.2s;
@@ -87,7 +88,9 @@ body {
 }
 .main .footer .left-footer {
   height: 100%;
-  line-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   float: left;
 }
 .main .footer .left-footer a {
@@ -96,12 +99,10 @@ body {
   margin: 0px 10px;
 }
 .main .footer .left-footer a:hover svg {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
-.main .footer .left-footer svg {
+.main .footer .left-footer a svg {
   transition: 0.2s;
-  height: 100%;
-  vertical-align: middle;
 }
 .main .footer .right-footer {
   height: 100%;
