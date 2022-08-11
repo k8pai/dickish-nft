@@ -1,0 +1,73 @@
+*, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: #d7d7d7;
+}
+
+.main-container .container-section {
+  height: 100%;
+  width: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main .navigation {
+  width: 100%;
+  height: 5vh;
+  line-height: 5vh;
+  padding: 0px 30px;
+  background-color: black;
+  color: white;
+}
+.main .navigation .left-nav {
+  float: left;
+  vertical-align: middle;
+}
+.main .navigation .right-nav {
+  float: right;
+  vertical-align: middle;
+}
+.main .content {
+  width: 100%;
+  flex: 1;
+}
+.main .content .content-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .content .content-container img {
+  height: 500px;
+  width: 500px;
+}
+.main .footer {
+  width: 100%;
+  height: 5vh;
+  line-height: 5vh;
+  padding: 0px 30px;
+  background-color: black;
+  color: white;
+}
+.main .footer .left-footer {
+  float: left;
+  vertical-align: middle;
+}
+.main .footer .right-footer {
+  float: right;
+  vertical-align: middle;
+}/*# sourceMappingURL=index.css.map */
